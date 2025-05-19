@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6eb5" />
+      <stop offset="100%" stop-color="#7295da" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="60" fill="url(#bg-gradient)" />
+  
+  <!-- Kilitli Kasa -->
+  <g fill="#ffffff">
+    <rect x="136" y="220" width="240" height="180" rx="15" />
+    <rect x="156" y="160" width="200" height="60" rx="10" fill="url(#bg-gradient)" stroke="#ffffff" stroke-width="12" />
+    
+    <!-- Kasa İçindeki Klipler -->
+    <rect x="176" y="260" width="160" height="20" rx="5" fill="#4a6eb5" opacity="0.8" />
+    <rect x="176" y="300" width="160" height="20" rx="5" fill="#4a6eb5" opacity="0.6" />
+    <rect x="176" y="340" width="160" height="20" rx="5" fill="#4a6eb5" opacity="0.4" />
+    
+    <!-- Kilit -->
+    <circle cx="256" cy="220" r="30" fill="#ffcc33" />
+    <rect x="244" y="210" width="24" height="40" rx="5" fill="#333333" />
+  </g>
+</svg> 
